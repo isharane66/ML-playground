@@ -8,6 +8,7 @@ This project aims to predict the likelihood of a heart attack in individuals usi
 
 The ML-based approach assists healthcare professionals in identifying high-risk individuals, leading to faster diagnosis, preventive care, and reduced mortality rates.
 
+
 **Dataset**
 
 Public dataset from the UCI Heart Disease Repository
@@ -17,6 +18,7 @@ Features include: Age, Sex, Chest Pain Type, Resting BP, Cholesterol, Fasting Bl
 Preprocessed with outlier handling, label encoding, and feature scaling
 
 Data split: 70% Train, 15% Validation, 15% Test
+
 
 **Machine Learning Models**
 
@@ -31,6 +33,7 @@ XGBoost: Gradient boosting with regularization, robust to imbalance.
 Support Vector Machine (SVM): Effective in high-dimensional spaces.
 
 Each model was evaluated on both performance and interpretability.
+
 
 **Model Training & Optimization**
 
@@ -50,6 +53,7 @@ Hyperparameter tuning with GridSearchCV
 
 Evaluation metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
 
+
 **Key Results**
 
 XGBoost achieved the highest AUC-ROC, indicating strong predictive power
@@ -57,6 +61,7 @@ XGBoost achieved the highest AUC-ROC, indicating strong predictive power
 Random Forest provided robust performance with feature importance insights
 
 SVM excelled in precision, useful for minimizing false positives
+
 
 **Impact & Importance**
 
@@ -68,7 +73,8 @@ Scalability: Can be integrated into EHR (Electronic Health Records) systems
 
 Preventive Healthcare: Encourages routine screening and awareness
 
-Future Plans:
+
+**Future Plans:**
 
 Integrate with real-time health monitoring devices
 
